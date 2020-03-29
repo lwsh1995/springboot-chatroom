@@ -1,0 +1,6 @@
+server:
+  port: 80
+  servlet:
+    context-path: chatroom
+websocket:
+  port: 3333
