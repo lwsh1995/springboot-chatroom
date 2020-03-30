@@ -1,6 +1,11 @@
 server:
   port: 80
-  servlet:
-    context-path: chatroom
 websocket:
   port: 3333
+spring:
+  resources:
+    static-locations: classpath:templates/,classpath:static/
+  mvc:
+    view:
+      prefix: html/
+      suffix: .html
